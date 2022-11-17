@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Home\Index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Home\Index.html" />
+  </ItemGroup>
+
 </Project>
